@@ -1071,12 +1071,7 @@ const itemVariants = {
         y: 0,
         transition: {
             duration: 0.8,
-            ease: [
-                0.25,
-                0.4,
-                0.25,
-                1
-            ]
+            ease: "easeOut"
         }
     }
 };
@@ -1515,12 +1510,7 @@ const cardVariants = {
         y: 0,
         transition: {
             duration: 0.6,
-            ease: [
-                0.25,
-                0.4,
-                0.25,
-                1
-            ]
+            ease: "easeOut"
         }
     }
 };
@@ -1787,12 +1777,7 @@ const cardVariants = {
         y: 0,
         transition: {
             duration: 0.5,
-            ease: [
-                0.25,
-                0.4,
-                0.25,
-                1
-            ]
+            ease: "easeOut"
         }
     }
 };
@@ -2053,12 +2038,7 @@ const cardVariants = {
         y: 0,
         transition: {
             duration: 0.6,
-            ease: [
-                0.25,
-                0.4,
-                0.25,
-                1
-            ]
+            ease: "easeOut"
         }
     }
 };
@@ -2406,12 +2386,7 @@ const cardVariants = {
         y: 0,
         transition: {
             duration: 0.6,
-            ease: [
-                0.25,
-                0.4,
-                0.25,
-                1
-            ]
+            ease: "easeOut"
         }
     }
 };
