@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-oxford-blue: #031320;
+  --color-persian-blue: #0A3FCB;
+  --color-lavender-mist: #E3ECFD;
+  --color-electric-blue: #0A3FCB;
+  
+  /* Gradients */
+  --color-gradient-start: #031320;
+  --color-gradient-end: #0a1a2e;
+  
+  /* Glass effects */
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-glass-bg: rgba(255, 255, 255, 0.05);
+  
+  /* Font */
+  --font-sans: "Inter", "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+  
+  body {
+    @apply bg-oxford-blue text-white antialiased;
+    background: linear-gradient(180deg, #031320 0%, #0a1a2e 50%, #031320 100%);
+    min-height: 100vh;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::selection {
+    @apply bg-persian-blue/30 text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-strong {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20;
+  }
+  
+  .glow-blue {
+    box-shadow: 0 0 60px rgba(10, 63, 203, 0.3), 0 0 120px rgba(10, 63, 203, 0.1);
+  }
+  
+  .glow-subtle {
+    box-shadow: 0 0 40px rgba(10, 63, 203, 0.15);
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-white via-lavender-mist to-white bg-clip-text text-transparent;
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}
