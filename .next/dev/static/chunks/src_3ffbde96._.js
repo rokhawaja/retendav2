@@ -1149,8 +1149,7 @@ const itemVariants = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.6,
-            ease: "easeOut"
+            duration: 0.6
         }
     }
 };
@@ -1357,7 +1356,7 @@ function ServicesPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 222,
+                lineNumber: 221,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1372,12 +1371,12 @@ function ServicesPage() {
                                     className: "absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-persian-blue/10 rounded-full blur-[200px]"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 227,
+                                    lineNumber: 226,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/services/page.tsx",
-                                lineNumber: 226,
+                                lineNumber: 225,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1404,14 +1403,14 @@ function ServicesPage() {
                                                     className: "w-3 h-3 mr-1.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 237,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Our Services"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 237,
+                                            lineNumber: 236,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1419,7 +1418,7 @@ function ServicesPage() {
                                             children: "A Complete Lifecycle System"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 241,
+                                            lineNumber: 240,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1427,24 +1426,24 @@ function ServicesPage() {
                                             children: "Designed to increase LTV, repeat purchases, and predictable monthly revenue. From strategy to execution — we turn ideas into performance, and performance into results."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 244,
+                                            lineNumber: 243,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 231,
+                                    lineNumber: 230,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/services/page.tsx",
-                                lineNumber: 230,
+                                lineNumber: 229,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 225,
+                        lineNumber: 224,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1474,7 +1473,7 @@ function ServicesPage() {
                                             children: "Core Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 262,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1482,7 +1481,7 @@ function ServicesPage() {
                                             children: "Email Marketing"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 265,
+                                            lineNumber: 264,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1490,13 +1489,13 @@ function ServicesPage() {
                                             children: "Our flagship offering — comprehensive email marketing that drives sustainable revenue growth."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 268,
+                                            lineNumber: 267,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 254,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1524,12 +1523,12 @@ function ServicesPage() {
                                                             className: `w-6 h-6 ${colors.text}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/services/page.tsx",
-                                                            lineNumber: 292,
+                                                            lineNumber: 291,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 289,
+                                                        lineNumber: 288,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1537,7 +1536,7 @@ function ServicesPage() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 295,
+                                                        lineNumber: 294,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1545,7 +1544,7 @@ function ServicesPage() {
                                                         children: service.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 299,
+                                                        lineNumber: 298,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1557,7 +1556,7 @@ function ServicesPage() {
                                                                         className: `w-4 h-4 ${colors.text} flex-shrink-0`
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                                        lineNumber: 306,
+                                                                        lineNumber: 305,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1565,46 +1564,46 @@ function ServicesPage() {
                                                                         children: feature
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                                        lineNumber: 307,
+                                                                        lineNumber: 306,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, feature, true, {
                                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                                lineNumber: 305,
+                                                                lineNumber: 304,
                                                                 columnNumber: 27
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 303,
+                                                        lineNumber: 302,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                lineNumber: 284,
+                                                lineNumber: 283,
                                                 columnNumber: 21
                                             }, this)
                                         }, service.title, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 282,
                                             columnNumber: 19
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 273,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/services/page.tsx",
-                            lineNumber: 254,
+                            lineNumber: 253,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 253,
+                        lineNumber: 252,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1634,7 +1633,7 @@ function ServicesPage() {
                                             children: "Growth Add-ons"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 328,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1642,7 +1641,7 @@ function ServicesPage() {
                                             children: "Additional Growth Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 332,
+                                            lineNumber: 331,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1650,13 +1649,13 @@ function ServicesPage() {
                                             children: "Extend your retention strategy with multi-channel marketing solutions."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 334,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1686,12 +1685,12 @@ function ServicesPage() {
                                                                 className: `w-7 h-7 ${colors.text}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                                lineNumber: 360,
+                                                                lineNumber: 359,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/services/page.tsx",
-                                                            lineNumber: 357,
+                                                            lineNumber: 356,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1702,7 +1701,7 @@ function ServicesPage() {
                                                                     children: service.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                                    lineNumber: 364,
+                                                                    lineNumber: 363,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1710,7 +1709,7 @@ function ServicesPage() {
                                                                     children: service.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                                    lineNumber: 368,
+                                                                    lineNumber: 367,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1722,7 +1721,7 @@ function ServicesPage() {
                                                                                     className: `w-4 h-4 ${colors.text} flex-shrink-0`
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                                                    lineNumber: 375,
+                                                                                    lineNumber: 374,
                                                                                     columnNumber: 33
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1730,57 +1729,57 @@ function ServicesPage() {
                                                                                     children: feature
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                                                    lineNumber: 376,
+                                                                                    lineNumber: 375,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             ]
                                                                         }, feature, true, {
                                                                             fileName: "[project]/src/app/services/page.tsx",
-                                                                            lineNumber: 374,
+                                                                            lineNumber: 373,
                                                                             columnNumber: 31
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                                    lineNumber: 372,
+                                                                    lineNumber: 371,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/services/page.tsx",
-                                                            lineNumber: 363,
+                                                            lineNumber: 362,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/services/page.tsx",
-                                                    lineNumber: 356,
+                                                    lineNumber: 355,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                lineNumber: 351,
+                                                lineNumber: 350,
                                                 columnNumber: 21
                                             }, this)
                                         }, service.title, false, {
                                             fileName: "[project]/src/app/services/page.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 349,
                                             columnNumber: 19
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/services/page.tsx",
-                                    lineNumber: 340,
+                                    lineNumber: 339,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/services/page.tsx",
-                            lineNumber: 321,
+                            lineNumber: 320,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 320,
+                        lineNumber: 319,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1808,7 +1807,7 @@ function ServicesPage() {
                                         children: "Ready to Transform Your Retention?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 399,
+                                        lineNumber: 398,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1816,7 +1815,7 @@ function ServicesPage() {
                                         children: "Book a free audit call and discover how Retenda can help you build predictable, recurring revenue through strategic lifecycle marketing."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 402,
+                                        lineNumber: 401,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1838,14 +1837,14 @@ function ServicesPage() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 415,
+                                                        lineNumber: 414,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Book a Meeting"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                lineNumber: 407,
+                                                lineNumber: 406,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -1862,47 +1861,47 @@ function ServicesPage() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 424,
+                                                        lineNumber: 423,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Request Free Audit"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                lineNumber: 418,
+                                                lineNumber: 417,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 406,
+                                        lineNumber: 405,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/services/page.tsx",
-                                lineNumber: 393,
+                                lineNumber: 392,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/services/page.tsx",
-                            lineNumber: 392,
+                            lineNumber: 391,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 391,
+                        lineNumber: 390,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 223,
+                lineNumber: 222,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 432,
+                lineNumber: 431,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$AuditModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AuditModal"], {
@@ -1910,7 +1909,7 @@ function ServicesPage() {
                 onClose: ()=>setIsAuditModalOpen(false)
             }, void 0, false, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 435,
+                lineNumber: 434,
                 columnNumber: 7
             }, this)
         ]
