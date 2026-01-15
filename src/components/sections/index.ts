@@ -1,6 +1,10 @@
 export { Hero } from "./Hero";
 export { Clients } from "./Clients";
 export { Problem } from "./Problem";
+export { InvisibleLeak } from "./InvisibleLeak";
 export { Services } from "./Services";
-export { Pricing } from "./Pricing";
+export { RetendaMethod } from "./RetendaMethod";
+export { DropProtocol } from "./DropProtocol";
 export { Testimonials } from "./Testimonials";
+export { MeetFounder } from "./MeetFounder";
+export { Pricing } from "./Pricing";

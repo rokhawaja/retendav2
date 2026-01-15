@@ -1,25 +1,34 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-const clients = [
-  "Buffalo Whey Protein",
-  "Windy City Cigars",
-  "Greyhaze",
-  "Smith Watches",
-  "Commonplace",
-  "Bambino House",
+const logoFiles = [
+  "1-1.png",
+  "1-2.png",
+  "1-3.png",
+  "1-4.png",
+  "1-5.png",
+  "1-6.png",
+  "1-7.png",
+  "1-8.png",
+  "1-9.png",
+  "1-10.png",
+  "1-11.png",
+  "1-13.png",
+  "1-14.png",
+  "1-15.png",
 ];
 
 export function Clients() {
   return (
-    <section className="py-24 overflow-hidden border-y border-white/5">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <section className="py-8 sm:py-12 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-center text-xs tracking-[0.25em] text-white/40 uppercase font-medium"
         >
           Esteemed Clientele
@@ -29,12 +38,12 @@ export function Clients() {
       {/* Marquee Container */}
       <div className="relative">
         {/* Gradient Masks */}
-        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-oxford-blue to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-oxford-blue to-transparent z-10" />
+        <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-oxford-blue to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-oxford-blue to-transparent z-10 pointer-events-none" />
 
         {/* Marquee Track */}
         <motion.div
-          className="flex gap-16"
+          className="flex gap-8 sm:gap-12 items-center"
           animate={{
             x: [0, -1440],
           }}
@@ -42,25 +51,27 @@ export function Clients() {
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 30,
+              duration: 25,
               ease: "linear",
             },
           }}
+          style={{ willChange: "transform" }}
         >
-          {/* Double the items for seamless loop */}
-          {[...clients, ...clients, ...clients, ...clients].map((client, index) => (
+          {/* Triple the items for seamless loop */}
+          {[...logoFiles, ...logoFiles, ...logoFiles].map((logo, index) => (
             <div
-              key={`${client}-${index}`}
-              className="flex-shrink-0 flex items-center justify-center px-8 py-4"
+              key={`${logo}-${index}`}
+              className="flex-shrink-0 flex items-center justify-center"
             >
-              <div className="flex items-center gap-4 group">
-                {/* Logo placeholder - stylized rectangle */}
-                <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center">
-                  <span className="text-lg font-bold text-white/30">{client.charAt(0)}</span>
-                </div>
-                <span className="text-lg font-medium text-white/40 whitespace-nowrap group-hover:text-white/60 transition-colors">
-                  {client}
-                </span>
+              <div className="relative w-48 h-24 sm:w-64 sm:h-32 md:w-80 md:h-40 grayscale hover:grayscale-0 opacity-40 hover:opacity-100 transition-all duration-300">
+                <Image
+                  src={`/logos/${logo}`}
+                  alt="Client logo"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 640px) 192px, (max-width: 768px) 256px, 320px"
+                  loading="lazy"
+                />
               </div>
             </div>
           ))}

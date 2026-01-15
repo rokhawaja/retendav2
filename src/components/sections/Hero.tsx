@@ -12,28 +12,29 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.2,
+      staggerChildren: 0.1,
+      delayChildren: 0.1,
     },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.8,
+      duration: 0.5,
+      ease: [0.25, 0.1, 0.25, 1],
     },
   },
 };
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 px-4 overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 -z-10 will-change-transform">
         {/* Radial gradient */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(10,63,203,0.15)_0%,_transparent_70%)]" />
         
@@ -44,15 +45,16 @@ export function Hero() {
             backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
                              linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
             backgroundSize: '60px 60px',
+            willChange: 'transform',
           }}
         />
 
-        {/* Glow orbs */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-persian-blue/20 rounded-full blur-[120px] animate-pulse" />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-persian-blue/10 rounded-full blur-[100px] animate-pulse delay-1000" />
+        {/* Glow orbs - optimized for mobile */}
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-persian-blue/20 rounded-full blur-[120px] animate-pulse" style={{ willChange: 'opacity' }} />
+        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 sm:w-64 sm:h-64 bg-persian-blue/10 rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s', willChange: 'opacity' }} />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-7xl mx-auto w-full text-center">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -64,7 +66,7 @@ export function Hero() {
             variants={itemVariants}
             className="text-xs sm:text-sm tracking-[0.3em] text-persian-blue font-medium mb-6 uppercase"
           >
-            From First Click to Forever
+            Retention is the profitability engine
           </motion.p>
 
           {/* Main Headline */}
@@ -72,9 +74,9 @@ export function Hero() {
             variants={itemVariants}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-8"
           >
-            Your Retention Engine for{" "}
-            <span className="gradient-text">DTC Ecommerce</span>{" "}
-            Brands.
+            for your{" "}
+            <span className="gradient-text">DTC ecommerce</span>{" "}
+            brand
           </motion.h1>
 
           {/* Subheadline */}
@@ -82,8 +84,7 @@ export function Hero() {
             variants={itemVariants}
             className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            Retenda is a retention-first growth partner. We transform fragmented email programs 
-            into structured, revenue-producing systems by combining strategy, creative, and deliverability.
+            At Retenda, we focus on retention, which is your only way to profitability. We transform leaky funnels into structured revenue-producing systems by combining strategy, creative and deliverability.
           </motion.p>
 
           {/* CTAs */}
@@ -108,17 +109,28 @@ export function Hero() {
           {/* Stats */}
           <motion.div
             variants={itemVariants}
-            className="mt-20 grid grid-cols-3 gap-8 max-w-xl mx-auto"
+            className="mt-16 sm:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-xl mx-auto"
           >
             {[
-              { value: "40%", label: "Avg Revenue Lift" },
-              { value: "98%", label: "Deliverability" },
-              { value: "24/7", label: "Support" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-white mb-1">{stat.value}</p>
-                <p className="text-xs sm:text-sm text-white/50">{stat.label}</p>
-              </div>
+              { value: "$10M+", label: "Generated" },
+              { value: "45%", label: "Avg. Repeat Purchase Rate" },
+              { value: "2.5x", label: "Increase in LTV" },
+            ].map((stat, index) => (
+              <motion.div 
+                key={stat.label} 
+                className="text-center py-4 sm:py-0"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ 
+                  duration: 0.4, 
+                  delay: index * 0.1,
+                  ease: [0.25, 0.1, 0.25, 1]
+                }}
+              >
+                <p className="text-3xl sm:text-4xl font-bold text-white mb-2">{stat.value}</p>
+                <p className="text-sm sm:text-base text-white/50">{stat.label}</p>
+              </motion.div>
             ))}
           </motion.div>
         </motion.div>

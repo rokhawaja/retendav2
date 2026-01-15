@@ -3,9 +3,13 @@ import {
   Hero,
   Clients,
   Problem,
+  InvisibleLeak,
   Services,
-  Pricing,
+  RetendaMethod,
+  DropProtocol,
   Testimonials,
+  MeetFounder,
+  Pricing,
 } from "@/components/sections";
 
 export default function Home() {
@@ -16,9 +20,13 @@ export default function Home() {
         <Hero />
         <Clients />
         <Problem />
+        <InvisibleLeak />
         <Services />
-        <Pricing />
+        <RetendaMethod />
+        <DropProtocol />
         <Testimonials />
+        <MeetFounder />
+        <Pricing />
       </main>
       <Footer />
     </>

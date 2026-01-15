@@ -7,47 +7,44 @@ import { Mail, Search, TrendingUp } from "lucide-react";
 const problems = [
   {
     icon: Mail,
-    title: "Email Revenue Leakage",
+    title: "The Acquisition Trap",
+    subtitle: "Rising Meta CPAs",
     description:
-      "Deliverability issues and domain health problems cause a 20–30% revenue drop. Poor lifecycle structure results in abandoned revenue.",
+      "Scaling is impossible when creative fatigue hits and CPAs rise. You're outbidding yourself for the same traffic.",
+    subtext: "Export to Sheets",
     iconBg: "bg-rose-500/20",
     iconColor: "text-rose-400",
   },
   {
     icon: Search,
-    title: "SEO Stagnation",
+    title: "The Data Black Box",
+    subtitle: "Zero Attribution",
     description:
-      "Organic growth stalls because SEO is treated reactively. Brands pay more for acquisition because organic channels aren't contributing.",
+      "iOS updates made tracking a \"black box.\" If you don't own your data via Email/SMS, you're flying blind.",
+    subtext: "",
     iconBg: "bg-amber-500/20",
     iconColor: "text-amber-400",
   },
   {
     icon: TrendingUp,
-    title: "Meta Ads Volatility",
+    title: "The Profit Drain",
+    subtitle: "The \"One-Time\" Buyer",
     description:
-      "Scaling becomes expensive when creative fatigue hits. Lack of consistent testing leads to rising CPAs and unstable ROAS.",
+      "70% of DTC shoppers never return. Without a retention engine, you are leaving 6-7 figures on the table every year.",
+    subtext: "",
     iconBg: "bg-sky-500/20",
     iconColor: "text-sky-400",
   },
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-    },
-  },
-};
-
 const cardVariants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.6,
+      duration: 0.5,
+      ease: [0.25, 0.1, 0.25, 1],
     },
   },
 };
@@ -58,10 +55,10 @@ export function Problem() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-center mb-16"
         >
           <p className="text-xs tracking-[0.25em] text-amber-500 uppercase font-medium mb-4">
@@ -70,48 +67,63 @@ export function Problem() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
             The DTC Growth Trap
           </h2>
-          <p className="text-lg text-white/50 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto italic mb-2">
+            Revamping your existing cards to be more aggressive:
+          </p>
+          <p className="text-base text-white/50 max-w-2xl mx-auto">
             Most brands hit a ceiling because of these three critical bottlenecks.
           </p>
         </motion.div>
 
         {/* Bento Grid */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
-        >
-          {problems.map((problem) => {
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {problems.map((problem, index) => {
             const Icon = problem.icon;
             return (
-              <motion.div key={problem.title} variants={cardVariants}>
+              <motion.div 
+                key={problem.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ 
+                  duration: 0.5, 
+                  delay: index * 0.1,
+                  ease: [0.25, 0.1, 0.25, 1]
+                }}
+              >
                 <Card
                   variant="glass"
-                  className="p-8 h-full relative group"
+                  className="p-6 sm:p-8 h-full relative group"
                   whileHover={{ scale: 1.02, y: -4 }}
-                  transition={{ duration: 0.3 }}
+                  transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
                 >
                   <div className="relative z-10">
                     {/* Icon */}
-                    <div className={`w-14 h-14 rounded-xl ${problem.iconBg} flex items-center justify-center mb-6`}>
-                      <Icon className={`w-7 h-7 ${problem.iconColor}`} />
+                    <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-xl ${problem.iconBg} flex items-center justify-center mb-6`}>
+                      <Icon className={`w-6 h-6 sm:w-7 sm:h-7 ${problem.iconColor}`} />
                     </div>
 
                     {/* Content */}
-                    <h3 className="text-xl font-semibold text-white mb-4">
+                    <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">
                       {problem.title}
                     </h3>
-                    <p className="text-white/50 leading-relaxed">
+                    <p className="text-sm sm:text-base font-medium text-white/70 mb-4">
+                      {problem.subtitle}
+                    </p>
+                    <p className="text-sm sm:text-base text-white/50 leading-relaxed mb-3">
                       {problem.description}
                     </p>
+                    {problem.subtext && (
+                      <p className="text-xs sm:text-sm text-white/40 italic">
+                        {problem.subtext}
+                      </p>
+                    )}
                   </div>
                 </Card>
               </motion.div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

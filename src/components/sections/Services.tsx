@@ -57,26 +57,6 @@ const services = [
   },
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.12,
-    },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-    },
-  },
-};
 
 export function Services() {
   return (
@@ -84,10 +64,10 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="text-center mb-16"
         >
           <p className="text-xs tracking-[0.25em] text-persian-blue uppercase font-medium mb-4">
@@ -102,38 +82,42 @@ export function Services() {
         </motion.div>
 
         {/* Services Grid */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6"
-        >
-          {services.map((service) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <motion.div key={service.title} variants={cardVariants}>
+              <motion.div 
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ 
+                  duration: 0.5, 
+                  delay: index * 0.1,
+                  ease: [0.25, 0.1, 0.25, 1]
+                }}
+              >
                 <Card
                   variant="glass"
-                  className="p-8 h-full relative group"
-                  whileHover={{ scale: 1.01 }}
-                  transition={{ duration: 0.3 }}
+                  className="p-6 sm:p-8 h-full relative group"
+                  whileHover={{ scale: 1.01, y: -4 }}
+                  transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
                 >
                   <div className="relative z-10">
-                    <div className="flex items-start gap-6">
+                    <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
                       {/* Icon */}
-                      <div className={`w-14 h-14 rounded-xl ${service.iconBg} flex items-center justify-center flex-shrink-0`}>
-                        <Icon className={`w-7 h-7 ${service.iconColor}`} />
+                      <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-xl ${service.iconBg} flex items-center justify-center flex-shrink-0`}>
+                        <Icon className={`w-6 h-6 sm:w-7 sm:h-7 ${service.iconColor}`} />
                       </div>
 
                       <div className="flex-1">
                         {/* Title */}
-                        <h3 className="text-xl font-semibold text-white mb-3">
+                        <h3 className="text-lg sm:text-xl font-semibold text-white mb-3">
                           {service.title}
                         </h3>
 
                         {/* Description */}
-                        <p className="text-white/50 leading-relaxed mb-5">
+                        <p className="text-sm sm:text-base text-white/50 leading-relaxed mb-5">
                           {service.description}
                         </p>
 
@@ -155,7 +139,7 @@ export function Services() {
               </motion.div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

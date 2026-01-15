@@ -13,7 +13,7 @@ interface ButtonProps extends HTMLMotionProps<"button"> {
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", children, ...props }, ref) => {
     const baseStyles =
-      "relative inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-300 cursor-pointer";
+      "relative inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 cursor-pointer will-change-transform";
 
     const variants = {
       primary:
@@ -37,6 +37,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
+        transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
         {...props}
       >
         {children}

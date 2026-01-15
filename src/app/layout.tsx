@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
+  title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
   description:
-    "Retenda is a retention-first growth partner. We transform fragmented email programs into structured, revenue-producing systems by combining strategy, creative, and deliverability.",
+    "At Retenda, we focus on retention, which is your only way to profitability. We transform leaky funnels into structured revenue-producing systems by combining strategy, creative and deliverability.",
   keywords: [
     "DTC",
     "ecommerce",
@@ -20,20 +20,22 @@ export const metadata: Metadata = {
     "growth agency",
     "deliverability",
     "lifecycle marketing",
+    "profitability",
+    "revenue optimization",
   ],
   authors: [{ name: "Retenda" }],
   openGraph: {
-    title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
+    title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
     description:
-      "Transform fragmented email programs into structured, revenue-producing systems.",
+      "We transform leaky funnels into structured revenue-producing systems.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
+    title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
     description:
-      "Transform fragmented email programs into structured, revenue-producing systems.",
+      "We transform leaky funnels into structured revenue-producing systems.",
   },
   robots: {
     index: true,
@@ -47,8 +49,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className="font-sans">{children}</body>
+    <html lang="en" className={`${inter.variable} scroll-smooth bg-oxford-blue`}>
+      <body className="font-sans bg-oxford-blue">{children}</body>
     </html>
   );
 }
