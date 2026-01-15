@@ -23,10 +23,6 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
   },
 };
 
@@ -59,11 +55,13 @@ export function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
+          transition={{ staggerChildren: 0.1, delayChildren: 0.1 }}
           className="max-w-4xl mx-auto"
         >
           {/* Tagline */}
           <motion.p
             variants={itemVariants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-xs sm:text-sm tracking-[0.3em] text-persian-blue font-medium mb-6 uppercase"
           >
             Retention is the profitability engine
@@ -72,6 +70,7 @@ export function Hero() {
           {/* Main Headline */}
           <motion.h1
             variants={itemVariants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-8"
           >
             for your{" "}
@@ -82,6 +81,7 @@ export function Hero() {
           {/* Subheadline */}
           <motion.p
             variants={itemVariants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed"
           >
             At Retenda, we focus on retention, which is your only way to profitability. We transform leaky funnels into structured revenue-producing systems by combining strategy, creative and deliverability.
@@ -90,6 +90,7 @@ export function Hero() {
           {/* CTAs */}
           <motion.div
             variants={itemVariants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link href="/pricing">
@@ -109,6 +110,7 @@ export function Hero() {
           {/* Stats */}
           <motion.div
             variants={itemVariants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="mt-16 sm:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-xl mx-auto"
           >
             {[

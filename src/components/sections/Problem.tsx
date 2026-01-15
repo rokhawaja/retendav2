@@ -37,18 +37,6 @@ const problems = [
   },
 ];
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
-  },
-};
-
 export function Problem() {
   return (
     <section id="process" className="py-32 relative">
