@@ -22,7 +22,7 @@ export function MeetFounder() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
           <p className="text-xs tracking-[0.25em] text-persian-blue uppercase font-medium mb-4">
@@ -41,14 +41,14 @@ export function MeetFounder() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
           className="max-w-5xl mx-auto"
         >
           <Card
             variant="glass"
             className="p-6 sm:p-8 lg:p-12"
             whileHover={{ scale: 1.01, y: -4 }}
-            transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
           >
             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
               {/* Founder Image */}

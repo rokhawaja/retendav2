@@ -32,7 +32,7 @@ export function RetendaMethod() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-16"
         >
           <p className="text-xs tracking-[0.25em] text-persian-blue uppercase font-medium mb-4">
@@ -56,14 +56,14 @@ export function RetendaMethod() {
                 transition={{ 
                   duration: 0.5, 
                   delay: index * 0.1,
-                  ease: [0.25, 0.1, 0.25, 1]
+                  ease: "easeOut"
                 }}
               >
                 <Card
                   variant="glass"
                   className="p-6 sm:p-8 h-full relative group"
                   whileHover={{ scale: 1.02, y: -4 }}
-                  transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                   <div className="relative z-10">
                     {/* Step Number */}

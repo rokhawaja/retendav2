@@ -37,7 +37,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+        transition={{ duration: 0.2, ease: "easeOut" }}
         {...props}
       >
         {children}

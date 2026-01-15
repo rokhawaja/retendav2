@@ -14,7 +14,7 @@ export function InvisibleLeak() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
@@ -32,13 +32,13 @@ export function InvisibleLeak() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, delay: 0, ease: "easeOut" }}
           >
             <Card
               variant="glass"
               className="p-6 sm:p-8 h-full"
               whileHover={{ scale: 1.01, y: -4 }}
-              transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-rose-500/20 flex items-center justify-center flex-shrink-0">
@@ -61,13 +61,13 @@ export function InvisibleLeak() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
           >
             <Card
               variant="glass"
               className="p-6 sm:p-8 h-full"
               whileHover={{ scale: 1.01, y: -4 }}
-              transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-amber-500/20 flex items-center justify-center flex-shrink-0">

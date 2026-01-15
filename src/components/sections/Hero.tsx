@@ -25,7 +25,7 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: [0.25, 0.1, 0.25, 1],
+      ease: "easeOut",
     },
   },
 };
@@ -125,7 +125,7 @@ export function Hero() {
                 transition={{ 
                   duration: 0.4, 
                   delay: index * 0.1,
-                  ease: [0.25, 0.1, 0.25, 1]
+                  ease: "easeOut"
                 }}
               >
                 <p className="text-3xl sm:text-4xl font-bold text-white mb-2">{stat.value}</p>

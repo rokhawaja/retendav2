@@ -65,7 +65,7 @@ export function Pricing() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
           <p className="text-xs tracking-[0.25em] text-persian-blue uppercase font-medium mb-4">
@@ -94,7 +94,7 @@ export function Pricing() {
                 transition={{ 
                   duration: 0.5, 
                   delay: index * 0.1,
-                  ease: [0.25, 0.1, 0.25, 1]
+                  ease: "easeOut"
                 }}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
@@ -112,7 +112,7 @@ export function Pricing() {
                     scale: isHovered ? 1.02 : 1,
                     y: isHovered ? -8 : 0,
                   }}
-                  transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                   {/* Popular Badge */}
                   {isPopular && (
@@ -165,7 +165,7 @@ export function Pricing() {
                       }`}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+                      transition={{ duration: 0.2, ease: "easeOut" }}
                     >
                       Get Started
                     </motion.button>
@@ -181,7 +181,7 @@ export function Pricing() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
           className="text-center text-sm sm:text-base text-white/40 mt-10 sm:mt-12"
         >
           Need a custom solution?{" "}

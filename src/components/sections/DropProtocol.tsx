@@ -27,7 +27,7 @@ export function DropProtocol() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
@@ -51,7 +51,7 @@ export function DropProtocol() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-center mb-12"
           >
             <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
@@ -70,7 +70,7 @@ export function DropProtocol() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             className="mb-12"
           >
             <h4 className="text-lg sm:text-xl font-bold text-white mb-6 text-center">
@@ -88,7 +88,7 @@ export function DropProtocol() {
                     transition={{ 
                       duration: 0.4, 
                       delay: index * 0.1,
-                      ease: [0.25, 0.1, 0.25, 1]
+                      ease: "easeOut"
                     }}
                     className="flex items-start gap-3"
                   >
@@ -109,13 +109,13 @@ export function DropProtocol() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
           >
             <Card 
               variant="glass" 
               className="p-6 sm:p-8 text-center border-persian-blue/30"
               whileHover={{ scale: 1.01, y: -4 }}
-              transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             >
               <h4 className="text-lg sm:text-xl font-bold text-white mb-4">
                 The Result
@@ -134,7 +134,7 @@ export function DropProtocol() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
             className="mt-12 text-center"
           >
             <h4 className="text-xl font-bold text-white mb-4">

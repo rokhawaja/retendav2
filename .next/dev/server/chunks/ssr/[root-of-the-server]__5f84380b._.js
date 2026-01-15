@@ -42,8 +42,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 ;
 ;
 const metadata = {
-    title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
-    description: "Retenda is a retention-first growth partner. We transform fragmented email programs into structured, revenue-producing systems by combining strategy, creative, and deliverability.",
+    title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
+    description: "At Retenda, we focus on retention, which is your only way to profitability. We transform leaky funnels into structured revenue-producing systems by combining strategy, creative and deliverability.",
     keywords: [
         "DTC",
         "ecommerce",
@@ -51,7 +51,9 @@ const metadata = {
         "email marketing",
         "growth agency",
         "deliverability",
-        "lifecycle marketing"
+        "lifecycle marketing",
+        "profitability",
+        "revenue optimization"
     ],
     authors: [
         {
@@ -59,15 +61,15 @@ const metadata = {
         }
     ],
     openGraph: {
-        title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
-        description: "Transform fragmented email programs into structured, revenue-producing systems.",
+        title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
+        description: "We transform leaky funnels into structured revenue-producing systems.",
         type: "website",
         locale: "en_US"
     },
     twitter: {
         card: "summary_large_image",
-        title: "Retenda | Your Retention Engine for DTC Ecommerce Brands",
-        description: "Transform fragmented email programs into structured, revenue-producing systems."
+        title: "Retenda | Retention is the profitability engine for your DTC ecommerce brand",
+        description: "We transform leaky funnels into structured revenue-producing systems."
     },
     robots: {
         index: true,
@@ -77,18 +79,18 @@ const metadata = {
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_2fe1ab3d$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable,
+        className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_2fe1ab3d$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} scroll-smooth bg-oxford-blue`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-            className: "font-sans",
+            className: "font-sans bg-oxford-blue",
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 51,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 50,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }

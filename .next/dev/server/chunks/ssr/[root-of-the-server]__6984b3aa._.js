@@ -1131,7 +1131,7 @@ function Hero() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                             variants: itemVariants,
                             className: "text-xs sm:text-sm tracking-[0.3em] text-persian-blue font-medium mb-6 uppercase",
-                            children: "From First Click to Forever"
+                            children: "Retention is the profitability engine"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
                             lineNumber: 63,
@@ -1141,18 +1141,18 @@ function Hero() {
                             variants: itemVariants,
                             className: "text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-8",
                             children: [
-                                "Your Retention Engine for",
+                                "for your",
                                 " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "gradient-text",
-                                    children: "DTC Ecommerce"
+                                    children: "DTC ecommerce"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Hero.tsx",
                                     lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 " ",
-                                "Brands."
+                                "brand"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
@@ -1162,7 +1162,7 @@ function Hero() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                             variants: itemVariants,
                             className: "text-lg sm:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed",
-                            children: "Retenda is a retention-first growth partner. We transform fragmented email programs into structured, revenue-producing systems by combining strategy, creative, and deliverability."
+                            children: "At Retenda, we focus on retention, which is your only way to profitability. We transform leaky funnels into structured revenue-producing systems by combining strategy, creative and deliverability."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
                             lineNumber: 81,
@@ -1184,18 +1184,18 @@ function Hero() {
                                                 className: "ml-2 w-5 h-5 transition-transform group-hover:translate-x-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Hero.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 96,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/Hero.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 94,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Hero.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1211,25 +1211,25 @@ function Hero() {
                                                 className: "w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Hero.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, this),
                                             "Book a Meeting"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/Hero.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Hero.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
-                            lineNumber: 90,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1237,16 +1237,16 @@ function Hero() {
                             className: "mt-20 grid grid-cols-3 gap-8 max-w-xl mx-auto",
                             children: [
                                 {
-                                    value: "40%",
-                                    label: "Avg Revenue Lift"
+                                    value: "$10M+",
+                                    label: "Generated"
                                 },
                                 {
-                                    value: "98%",
-                                    label: "Deliverability"
+                                    value: "45%",
+                                    label: "Avg. Repeat Purchase Rate"
                                 },
                                 {
-                                    value: "24/7",
-                                    label: "Support"
+                                    value: "2.5x",
+                                    label: "Increase in LTV"
                                 }
                             ].map((stat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-center",
@@ -1256,7 +1256,7 @@ function Hero() {
                                             children: stat.value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/Hero.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 118,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1264,18 +1264,18 @@ function Hero() {
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/Hero.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 119,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, stat.label, true, {
                                     fileName: "[project]/src/components/sections/Hero.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
-                            lineNumber: 109,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1468,22 +1468,28 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const problems = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"],
-        title: "Email Revenue Leakage",
-        description: "Deliverability issues and domain health problems cause a 20–30% revenue drop. Poor lifecycle structure results in abandoned revenue.",
+        title: "The Acquisition Trap",
+        subtitle: "Rising Meta CPAs",
+        description: "Scaling is impossible when creative fatigue hits and CPAs rise. You're outbidding yourself for the same traffic.",
+        subtext: "Export to Sheets",
         iconBg: "bg-rose-500/20",
         iconColor: "text-rose-400"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"],
-        title: "SEO Stagnation",
-        description: "Organic growth stalls because SEO is treated reactively. Brands pay more for acquisition because organic channels aren't contributing.",
+        title: "The Data Black Box",
+        subtitle: "Zero Attribution",
+        description: "iOS updates made tracking a \"black box.\" If you don't own your data via Email/SMS, you're flying blind.",
+        subtext: "",
         iconBg: "bg-amber-500/20",
         iconColor: "text-amber-400"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"],
-        title: "Meta Ads Volatility",
-        description: "Scaling becomes expensive when creative fatigue hits. Lack of consistent testing leads to rising CPAs and unstable ROAS.",
+        title: "The Profit Drain",
+        subtitle: "The \"One-Time\" Buyer",
+        description: "70% of DTC shoppers never return. Without a retention engine, you are leaving 6-7 figures on the table every year.",
+        subtext: "",
         iconBg: "bg-sky-500/20",
         iconColor: "text-sky-400"
     }
@@ -1541,7 +1547,7 @@ function Problem() {
                             children: "The Challenge"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Problem.tsx",
-                            lineNumber: 67,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1549,7 +1555,7 @@ function Problem() {
                             children: "The DTC Growth Trap"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Problem.tsx",
-                            lineNumber: 70,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1557,13 +1563,13 @@ function Problem() {
                             children: "Most brands hit a ceiling because of these three critical bottlenecks."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Problem.tsx",
-                            lineNumber: 73,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/Problem.tsx",
-                    lineNumber: 60,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1597,61 +1603,77 @@ function Problem() {
                                                 className: `w-7 h-7 ${problem.iconColor}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Problem.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 105,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/Problem.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 104,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-semibold text-white mb-4",
+                                            className: "text-xl font-semibold text-white mb-2",
                                             children: problem.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/Problem.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 109,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-white/50 leading-relaxed",
+                                            className: "text-base font-medium text-white/70 mb-4",
+                                            children: problem.subtitle
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/Problem.tsx",
+                                            lineNumber: 112,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-white/50 leading-relaxed mb-3",
                                             children: problem.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/Problem.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 115,
                                             columnNumber: 21
+                                        }, this),
+                                        problem.subtext && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-white/40 italic",
+                                            children: problem.subtext
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/Problem.tsx",
+                                            lineNumber: 119,
+                                            columnNumber: 23
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/Problem.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 102,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/Problem.tsx",
-                                lineNumber: 90,
+                                lineNumber: 96,
                                 columnNumber: 17
                             }, this)
                         }, problem.title, false, {
                             fileName: "[project]/src/components/sections/Problem.tsx",
-                            lineNumber: 89,
+                            lineNumber: 95,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/Problem.tsx",
-                    lineNumber: 79,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/Problem.tsx",
-            lineNumber: 58,
+            lineNumber: 64,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/Problem.tsx",
-        lineNumber: 57,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 }
