@@ -28,6 +28,18 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -102,7 +114,7 @@ export function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="md:hidden py-4 border-t border-white/10"
+            className="md:hidden py-4 border-t border-white/10 bg-oxford-blue/95 backdrop-blur-xl"
           >
             <div className="flex flex-col gap-3">
               {navLinks.map((link, index) => (
@@ -118,7 +130,7 @@ export function Navbar() {
                 >
                   <Link
                     href={link.href}
-                    className="block text-white/70 hover:text-white transition-colors px-2 py-2.5 rounded-lg hover:bg-white/5"
+                    className="block text-white/90 hover:text-white transition-colors px-2 py-2.5 rounded-lg hover:bg-white/10 text-base font-medium"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}

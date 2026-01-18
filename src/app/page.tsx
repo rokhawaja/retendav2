@@ -14,9 +14,9 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden max-w-full">
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <Clients />
         <Problem />
@@ -29,6 +29,6 @@ export default function Home() {
         <Pricing />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

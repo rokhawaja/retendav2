@@ -27,6 +27,8 @@
   html {
     @apply bg-oxford-blue;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
   }
   
   body {
@@ -34,6 +36,9 @@
     background: linear-gradient(180deg, #031320 0%, #0a1a2e 50%, #031320 100%);
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
   }
   
   ::selection {

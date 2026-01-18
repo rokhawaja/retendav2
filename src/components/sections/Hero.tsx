@@ -64,7 +64,7 @@ export function Hero() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-xs sm:text-sm tracking-[0.3em] text-persian-blue font-medium mb-6 uppercase"
           >
-            Retention is the profitability engine
+            Transform Your Revenue
           </motion.p>
 
           {/* Main Headline */}
@@ -73,7 +73,7 @@ export function Hero() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-8"
           >
-            for your{" "}
+            Retention is the profitability engine for your{" "}
             <span className="gradient-text">DTC ecommerce</span>{" "}
             brand
           </motion.h1>
@@ -111,12 +111,11 @@ export function Hero() {
           <motion.div
             variants={itemVariants}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="mt-16 sm:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-xl mx-auto"
+            className="mt-16 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 max-w-xl mx-auto"
           >
             {[
               { value: "$10M+", label: "Generated" },
-              { value: "45%", label: "Avg. Repeat Purchase Rate" },
-              { value: "2.5x", label: "Increase in LTV" },
+              { value: "50+", label: "DTC Brands Trust Us" },
             ].map((stat, index) => (
               <motion.div 
                 key={stat.label} 
